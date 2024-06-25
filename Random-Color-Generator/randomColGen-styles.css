@@ -1,0 +1,31 @@
+*{
+  margin: 0;padding: 0;
+}
+
+body{
+  /* box-sizing: border-box; */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.color-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.color-cls{
+  width: 300px;
+  height: 150px;
+  display: flex;
+  background-color: tomato;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 5px;
+  align-items: center;
+  padding-right: auto;
+  color: #fffeff;
+  justify-content: center;
+  text-shadow: 4px 3px 6px lightgray;
+}
